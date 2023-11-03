@@ -1,7 +1,16 @@
-# Experimental serial communication with asio
+# replfy
+
+`replfy` *(REPL-fy)* is repl program for serial communication.
 
 ## Requirements
 
-  - [premake5](https://premake.github.io)
-  - [asio](https://think-async.com/Asio/)
+  - [CMake](https://cmake.org)
+
+## Development
+
+Use command below to generate build system with `cmake`.
+
+```sh
+cmake -S . -Bbuild
+```
 
